@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://113.160.225.87:8586/mtracking-git/Code/mTracking/';
+$config['base_url'] = 'http://192.168.10.87/';
 
 /*
 |--------------------------------------------------------------------------
