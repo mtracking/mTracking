@@ -1,0 +1,102 @@
+.type-label .table {
+    margin-bottom: 0px;
+}
+
+/*Huck's*/
+.title-text {
+    font-weight: bolder;
+    padding: 5px;
+}
+/*Huck's*/
+.remove-image {
+    position: relative;
+}
+.remove-image i {
+    position: absolute;
+    top: 40%;
+    left:40%;
+    font-size: 40px;
+    display:none;
+    color: #EA4335;
+}
+.img-avatar {
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .all-types img{
+        position: relative;
+        float: left;
+        width:  200px;
+        height: 100px !important;
+        background-position: 50% 50%;
+        background-repeat:   no-repeat;
+        background-size:     cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .all-types img {
+        position: relative;
+        float: left;
+        width:  350px;
+        height: 200px;
+        background-position: 50% 50%;
+        background-repeat:   no-repeat;
+        background-size:     cover;
+    }
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    text-align: right;
+    text-indent: -9999px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: inline-block;
+}
+.type-item .messages {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 50%;
+
+}
+
+.front-label, .back-label {
+    border: 1px solid #dfdfdf;
+    margin: 20px 0;
+}
+.front-label .logo {
+    margin: 30px 0 50px 0;
+}
+.front-label .row, .back-label .row {
+    margin-left: 0px;
+}
+tr.page-row .action, tr.post-row .action {
+    visibility: hidden;
+}
+tr.page-row:hover .action, tr.post-row:hover .action {
+    visibility: visible;
+}
+.check-draft {
+    display: none;
+}
+.is-draft {
+    display: inline;
+}

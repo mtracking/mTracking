@@ -1,0 +1,19 @@
+<?php
+    $lang['title'] = 'Hồ sơ người dùng';
+    $lang['mua'] = 'Mua';
+    $lang['change_password'] = 'Thay đổi mật khẩu';
+    $lang['full_name'] = 'Tên đầy đủ';
+    $lang['address'] = 'Địa chỉ';
+    $lang['postal_code'] = 'Mã bưu chính';
+    $lang['phone'] = 'Điện thoại';
+    $lang['login'] = 'Đăng nhập';
+    $lang['current_password'] = 'mật khẩu hiện tại';
+    $lang['new_password'] = 'Mật khẩu mới';
+    $lang['confirm_password'] = 'Xác nhận mật khẩu';
+    $lang['update_profile'] = 'Cập nhật hồ sơ';
+    $lang['update_password'] = 'Cập nhật mật khẩu';
+    $lang['update_profile_success'] = 'Cập nhật hồ sơ thành công';
+    $lang['update_password_success'] = 'Cập nhật mật khẩu thành công';
+    $lang['update_failure'] = 'Xin lỗi. Yêu cầu của bạn không thành công';
+    $lang['ok'] = 'OK';
+    $lang['check_password'] = 'Mật khẩu không đúng';

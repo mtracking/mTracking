@@ -1,0 +1,33 @@
+<?php
+    $lang['title'] = 'Kho Hàng';
+    $lang['heading_create'] = 'Tạo lô hàng';
+    $lang['heading_update'] = 'Cập nhật lô hàng';
+    $lang['serial_no'] = ' Mã lô hàng ';
+    $lang['producing_date'] = 'Ngày sản xuất';
+    $lang['hint_producing_date'] = 'Nhập ngày sản xuất';
+    $lang['expiry_date'] = 'Ngày hết hạn';
+    $lang['hint_expiry_date'] = 'Nhập ngày hết hạn';
+    $lang['quantity'] = 'Số lượng';
+    $lang['hint_quantity'] = 'Nhập Số lượng';
+    $lang['tally'] = 'Tally';
+    $lang['wine_label'] = 'Nhãn rượu';
+    $lang['image'] = 'Hình Ảnh';
+    $lang['storage_temp'] = 'Nhiệt độ bảo quản ';
+    $lang['hint_storage_temp'] = 'Nhập nhiệt độ bảo quản';
+    $lang['characteristics'] = 'Đặc điểm';
+    $lang['hint_characteristics'] = 'Nhập Đặc điểm';
+    $lang['category'] = 'Chủng loại';
+    $lang['create'] = 'Tạo';
+    $lang['update'] = 'Cập nhật';
+    $lang['reset'] = 'Reset';
+    $lang['create_success'] = 'Tạo lô hàng thành công';
+    $lang['create_failure'] = 'Tạo lô hàng thất bại';
+    $lang['update_success'] = 'Cập nhật lô hàng thành công';
+    $lang['update_failure'] = 'Cập nhật lô hàng thất bại';
+    $lang['delete_title'] = 'Delete parcel';
+    $lang['inform_delete_wines'] = 'Click OK to remove Wine Label: ';
+    $lang['confirm'] = 'OK';
+    $lang['list_of_storage'] = "Danh sách lô hàng";
+    $lang['id'] = 'STT';
+    $lang['action'] = 'Hành Động';
+?>

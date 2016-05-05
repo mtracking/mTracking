@@ -1,0 +1,37 @@
+<?php
+    $lang['home'] = 'Trang chủ';
+    $lang['wine_store'] = 'Rượu Store';
+    $lang['store'] = 'Store';
+    $lang['about_us'] = 'Giới thiệu';
+    $lang['login'] = 'Đăng nhập';
+    $lang['manage'] = 'Quản lý';
+    $lang['orders'] = 'Đăng ký';
+    $lang['shopping_cart'] = 'Đơn hàng';
+    $lang['history'] = 'Lịch sử';
+    $lang['shopping_cart'] = 'Giỏ hàng';
+    $lang['user_profile'] = 'Hồ sơ';
+    $lang['log_out'] = 'Thoát';
+    $lang['search_wine'] = 'Tìm kiếm rượu, loại rượu...';
+    $lang['email'] = 'Email';
+    $lang['hint_email'] = 'Nhập email';
+    $lang['password'] = 'Mật khẩu';
+    $lang['hint_password'] = 'Nhập mật khẩu';
+    $lang['confirm_password'] = 'Xác nhận mật khẩu';
+    $lang['hint_confrim_password'] = 'Nhập xác nhận mật khẩu';
+    $lang['address'] = 'Địa chỉ';
+    $lang['hint_address'] = 'Nhập địa chỉ';
+    $lang['postal_code'] = 'Mã bưu chính';
+    $lang['hint_postal_code'] = 'Nhập mã bưu chính';
+    $lang['phone'] = 'Điện thoại';
+    $lang['hint_phone'] = 'Nhập số điện thoại';
+    $lang['full_name'] = 'Tên đầy đủ';
+    $lang['hint_full_name'] = 'Nhập tên đầy đủ';
+    $lang['login_to_dashboard'] = 'Đăng nhập vào bảng điều khiển';
+    $lang['check_email'] = 'Email tồn tại';
+    $lang['vietnamese'] = 'Việt';
+    $lang['english'] = 'Tiếng Anh';
+    $lang['register_success'] = 'Đăng ký thành công';
+    $lang['register_failure'] = 'Xin lỗi. Yêu cầu của bạn không ';
+    $lang['send'] = 'Gửi';
+    $lang['find'] = 'Tìm kiếm';
+?>

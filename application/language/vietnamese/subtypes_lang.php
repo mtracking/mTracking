@@ -1,0 +1,31 @@
+<?php
+    $lang['title'] = 'Subtypes';
+    $lang['heading_create'] = 'Create subtype';
+    $lang['heading_update'] = 'Update subtype';
+    $lang['factory'] = 'Factory';
+    $lang['hint_factory'] = 'Enter factory';
+    $lang['producing_year'] = 'Producing year';
+    $lang['hint_producing_year'] = 'Enter producing year';
+    $lang['type'] = 'Type';
+    $lang['category'] = 'Category';
+    $lang['create'] = 'Create';
+    $lang['update'] = 'Update';
+    $lang['reset'] = 'Reset';
+    $lang['create_success'] = 'Create subtype success';
+    $lang['create_failure'] = 'Create subtype failure';
+    $lang['update_success'] = 'Update subtype success';
+    $lang['update_failure'] = 'Update subtype failure';
+    $lang['list_of_subtypes'] = "List of subtypes";
+    $lang['id'] = 'No.';
+    $lang['action'] = 'Action';
+    $lang['edit_hint'] = 'Edit';
+    $lang['delete_hint'] = 'Delete';
+    $lang['settings_hint'] = 'Settings';
+    $lang['delete_title'] = 'Delete subtype';
+    $lang['update_success_msg'] = 'Update successfully!';
+    $lang['update_failed_msg'] = 'Sorry, process was failed!';
+    $lang['inform_delete_types'] = 'Click OK to remove type Label: ';
+    $lang['inform_error_delete_types'] = 'No subtype was selected !';
+    $lang['confirm'] = 'OK';
+    $lang['decimal_numeric'] = 'The %s field validation has failed';
+?>
