@@ -100,9 +100,9 @@ class Batches_model extends CI_Model {
     function delete($id)
     {
         $this->db->trans_begin();
-        $this->db->where('id', $id)->delete($this->table);
         $this->load->model('products_model');
         $products = $this->products_model->get_products_of_batch($id);
+        $this->db->where('id', $id)->delete($this->table);
         $this->products_model->delete_products_of_batch($id);
         if ($this->db->trans_status() === FALSE)
         {
@@ -114,8 +114,8 @@ class Batches_model extends CI_Model {
             $this->load->library('gallery');
             foreach ($products as $key => $product)
             {
-                $this->gallery->image_delete(LINK_TO_SAVE_QRCODE.$product->serial_no.'_qrcode1.png');
-                $this->gallery->image_delete(LINK_TO_SAVE_QRCODE.$product->serial_no.'_qrcode2.png');
+                $this->gallery->image_delete(LINK_TO_SAVE_QRCODE.$product->serial_no. FILENAME_QRCODE1);
+                $this->gallery->image_delete(LINK_TO_SAVE_QRCODE.$product->serial_no. FILENAME_QRCODE2);
             }
             $this->db->trans_commit();
             return TRUE;
